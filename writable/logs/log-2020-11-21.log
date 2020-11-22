@@ -1,0 +1,47 @@
+CRITICAL - 2020-11-21 03:27:52 --> Undefined variable: title_content
+#0 C:\xampp\htdocs\ci4template\app\Views\templates\auth.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('templates/auth', Array, true)
+#3 C:\xampp\htdocs\ci4template\app\Controllers\Auth.php(12): view('templates/auth', Array)
+#4 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->index()
+#5 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-21 03:27:53 --> Undefined variable: title_content
+#0 C:\xampp\htdocs\ci4template\app\Views\templates\auth.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('templates/auth', Array, true)
+#3 C:\xampp\htdocs\ci4template\app\Controllers\Auth.php(12): view('templates/auth', Array)
+#4 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->index()
+#5 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-21 03:41:42 --> Undefined property: CodeIgniter\View\View::$endSection
+#0 C:\xampp\htdocs\ci4template\app\Views\auth\login.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\ci4template\app\Controllers\Auth.php(12): view('auth/login', Array)
+#4 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->index()
+#5 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-21 21:32:25 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Database\Database.php(109): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Database\Config.php(148): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Database\Seeder.php(126): CodeIgniter\Database\Config::forge(NULL)
+#3 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(107): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#4 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CLI\Commands.php(100): CodeIgniter\Commands\Database\Seed->run(Array)
+#5 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(107): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#6 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index(Array)
+#7 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap('index', 'db:seed', 'OrangSeeder')
+#8 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#9 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CLI\Console.php(86): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4template\spark(57): CodeIgniter\CLI\Console->run()
+#12 {main}
