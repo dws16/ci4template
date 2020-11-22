@@ -14,24 +14,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'd1f56333286476672e432527a890e5fd5d3faeec',
     'name' => 'codeigniter4/appstarter',
   ),
   'versions' => 
   array (
     'codeigniter4/appstarter' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'd1f56333286476672e432527a890e5fd5d3faeec',
     ),
     'codeigniter4/framework' => 
     array (
@@ -109,15 +109,6 @@ private static $installed = array (
       array (
         0 => '1.10.2',
       ),
-    ),
-    'myth/auth' => 
-    array (
-      'pretty_version' => '1.0-beta.3',
-      'version' => '1.0.0.0-beta3',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '85572d1f1bb312d7d2e0a444b45531170773d2de',
     ),
     'phar-io/manifest' => 
     array (
