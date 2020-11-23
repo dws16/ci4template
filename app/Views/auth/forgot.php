@@ -38,7 +38,7 @@
                   <a>Already have an account?</a>
                 </div>
                 <div class="row justify-content-center">
-                  <a href="/auth/index">Login</a>
+                  <a href="/">Login</a>
                 </div>
               </div>
             </div>

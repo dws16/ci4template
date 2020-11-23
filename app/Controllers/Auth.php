@@ -49,6 +49,22 @@ class Auth extends BaseController
 
   public function register()
   {
+    if (!$this->validate([
+      'email' => [
+        'rules' => 'required|valid_email|is_unique[users.email]',
+        'errors' => [
+          'required' => 'Please input your email.',
+          'valid_email' => 'Please input a valid email address.'
+        ]
+      ],
+      'password' => [
+        'rules' => 'required',
+        'errors' => [
+          'required' => "Please input your password."
+        ]
+      ]
+    ])) {
+    }
     $data = [
       'title' => 'Register'
     ];
