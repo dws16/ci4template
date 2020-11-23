@@ -105,3 +105,21 @@ CRITICAL - 2020-11-23 19:16:05 --> Call to undefined method App\Models\UserModel
 #4 C:\xampp\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #5 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+CRITICAL - 2020-11-23 21:57:47 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Contr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Contr...')
+#3 [internal function]: spl_autoload_call('Myth\\Auth\\Contr...')
+#4 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\Myth\\Auth\\Cont...', true)
+#5 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 22:38:38 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4template\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4template\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
